@@ -7,14 +7,14 @@ import card3 from '../../../assets/card3.png';
 import card4 from '../../../assets/card4.png';
 
 const PracticeAdvice = () => (
-    <AdviceContainer className="container d-flex flex-column py-5">
+    <AdviceContainer className="container d-flex flex-column py-5" id="practice-advice">
         <Maintext
         title="Practice Advice"
         description1="Problems trying to resolve the conflict between"
         description2="the two major realms of Classical physics: Newtonian mechanics"
         align="center"
         />
-        <div className="row row-cols-md-4 row-cols-sm-1 justify-content-between g-3">
+        <div className="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 justify-content-between g-3 w-100">
             <div className="col d-flex">
             <CardPracticeAdvice 
             title="Frauds or Mislead"

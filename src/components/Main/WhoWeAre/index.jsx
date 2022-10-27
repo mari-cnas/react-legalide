@@ -5,7 +5,7 @@ import velo from '../../../assets/Velocímetro.png';
 
 
 const WhoWeAre = () => (
-    <div className="container my-5">
+    <div className="container my-5" id="who-we-are">
         <Maintext
             title="Who We Are"
             description1="Problems trying to resolve the conflict between the two major realms"
@@ -13,10 +13,10 @@ const WhoWeAre = () => (
             align="center"        
         />
         <div className="row align-items-end justify-content-between ">
-            <div className="col-12 col-md-7">
+            <div className="col-12 col-lg-7 col-md-12">
                 <Video/>
             </div>
-            <div className="col-12 col-md-5 d-flex flex-column align-items-end  ">
+            <div className="col-12 col-lg-5 col-md-12 d-flex flex-column align-items-lg-end align-items-sm-center ">
                 <Maintext
                     title="Most trusted in"
                     title2="our field"

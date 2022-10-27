@@ -5,11 +5,11 @@ import twitter from '../../assets/twitter.png';
 import youtube from '../../assets/youtube.png';
 
 const Networking = () =>  (
-    <NetworkingContainer className="row d-flex align-items-center flex-wrap">
-        <img src={face} alt="face" className="col"/>
-        <img src={insta} alt="insta" className="col"/>
-        <img src={twitter} alt="twitter" className="col"/>
-        <img src={youtube} alt="youtube" className="col"/>
+    <NetworkingContainer className="d-flex list-unstyled">
+        <li className="mx-2"><a href="https://www.facebook.com"><img src={face} alt="face" className="col"/></a></li>
+        <li className="mx-2"><a href="https://www.instagram.com"><img src={insta} alt="insta" className="col"/></a></li>
+        <li className="mx-2"><a href="https://www.twitter.com"><img src={twitter} alt="twitter" className="col"/></a></li>
+        <li className="mx-2"><a href="https://www.youtube.com"><img src={youtube} alt="youtube" className="col"/></a></li>
 
     </NetworkingContainer>
     );

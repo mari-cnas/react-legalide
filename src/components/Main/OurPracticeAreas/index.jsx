@@ -6,7 +6,7 @@ import auction from '../../../assets/001-auction.png';
 import accept from '../../../assets/005-accept.png';
 
 const OurPracticeAreas = () => (
-    <AreasContainer className="container d-flex flex-column align-items-center my-5">
+    <AreasContainer className="container d-flex flex-column align-items-center my-5" id="practice-areas">
         <Maintext
             title="Our Practice Areas"
             description1="Problems trying to resolve the conflict between"

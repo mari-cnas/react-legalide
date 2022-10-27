@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const ContactCardContainer = styled.div`
 
+color:${(props)=> props.textColor};
 
 .btn-submit{
     padding: 10px 20px;

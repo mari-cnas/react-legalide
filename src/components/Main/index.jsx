@@ -7,7 +7,7 @@ import GetInTouch from './GetInTouch';
 
 const Main = () =>  (
     <MainContainer className="container">
-        <OurPracticeAreas id="practiceAreas"/>
+        <OurPracticeAreas />
         <PracticeAdvice id="practiceAdvice"/>
         <WhoWeAre id="whoWeAre"/>
         <Subscribe/>   

@@ -7,8 +7,14 @@ background-image: url(${cover});
 background-repeat: no-repeat;
 background-size: cover;
 
+.navbody{
+    background: #252B42;
+    opacity:50%;
+}
+
 .navcolor{
-    background: #252B42
+    background: #252B42;
+
 }
 
 .btn1{

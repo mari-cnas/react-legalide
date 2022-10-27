@@ -9,7 +9,7 @@ const CardContact = ({icon,title,description,backgroundColor,textColor, children
                 <h6 className="card-title">{title}</h6>
                 <h6 className="card-text">{description}</h6>
                 <h5 className="py-2">Get Support</h5>
-                <a href="www.google.com" class="btn btn-submit">Submit request</a>
+                <a href="#contact" class="btn btn-submit">Submit request</a>
             </div>
         </ContactCardContainer>
         
