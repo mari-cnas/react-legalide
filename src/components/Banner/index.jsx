@@ -61,7 +61,7 @@ const Banner = () => (
                         </div>
                     </nav>
                 </header>
-                <div className="row row-cols-sm-1 row-cols-lg-2 ">
+                <div className="row row-cols-1 row-cols-lg-2 ">
                     <div className="col mt-5">
                             <div className="d-flex flex-column align-items-center align-items-md-start mt-5 ">
                                 <h1 className="d-flex text-center text-md-start ">LEGAL PRO SERVICES</h1>
