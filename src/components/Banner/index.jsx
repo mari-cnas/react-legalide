@@ -29,10 +29,10 @@ const Banner = () => {
                                             </div>
                                         <div className="d-flex flex-column w-100">
                                         <p id="logo">Legalide</p>    
-                                            <a href="#practice-areas" className="me-4">Practice Areas</a>
-                                                <a href="#practice-advice" className="me-4">Practice Advice</a>
-                                                <a href="#who-we-are" className="me-4">Who we are</a>
-                                                <a href="#contact" className="me-4">Contact</a>
+                                                <a href="#practice-areas" className="me-4" isMenuOpened={isMenuOpened} onClick={() => setIsMenuOpened(false)}>Practice Areas</a>
+                                                <a href="#practice-advice" className="me-4" isMenuOpened={isMenuOpened} onClick={() => setIsMenuOpened(false)}>Practice Advice</a>
+                                                <a href="#who-we-are" className="me-4" isMenuOpened={isMenuOpened} onClick={() => setIsMenuOpened(false)}>Who we are</a>
+                                                <a href="#contact" className="me-4" isMenuOpened={isMenuOpened} onClick={() => setIsMenuOpened(false)}>Contact</a>
                                             </div>
                                         </NavSection>
                                     </MenuMobile>
