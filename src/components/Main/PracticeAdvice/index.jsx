@@ -7,7 +7,7 @@ import card3 from '../../../assets/card3.png';
 import card4 from '../../../assets/card4.png';
 
 const PracticeAdvice = () => (
-    <AdviceContainer className="container d-flex flex-column py-5" id="practice-advice">
+    <AdviceContainer className="container d-flex flex-column  align-items-center py-5" id="practice-advice">
         <Maintext
         title="Practice Advice"
         description1="Problems trying to resolve the conflict between"

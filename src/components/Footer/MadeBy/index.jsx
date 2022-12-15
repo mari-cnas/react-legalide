@@ -3,7 +3,7 @@ import Networking from  '../../Networking';
 
 const MadeBy = () => (
         <MadeByContainer className="container d-flex py-3 justify-content-center justify-content-md-between flex-wrap">
-            <p className="text text-white ">Made With Love By Figmaland All Right Reserved</p>
+            <p className="text text-white ">Site por <a href="https://www.linkedin.com/in/marianacnascimento/"  target="_blank" rel="noreferrer">Mariana C. Nascimento</a></p>
             <Networking/>
         </MadeByContainer>
 

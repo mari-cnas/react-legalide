@@ -6,10 +6,10 @@ import youtube from '../../assets/youtube.png';
 
 const Networking = () =>  (
     <NetworkingContainer className="d-flex list-unstyled">
-        <li className="mx-2"><a href="https://www.facebook.com"><img src={face} alt="face" className="col"/></a></li>
-        <li className="mx-2"><a href="https://www.instagram.com"><img src={insta} alt="insta" className="col"/></a></li>
-        <li className="mx-2"><a href="https://www.twitter.com"><img src={twitter} alt="twitter" className="col"/></a></li>
-        <li className="mx-2"><a href="https://www.youtube.com"><img src={youtube} alt="youtube" className="col"/></a></li>
+        <li className="mx-2"><a href="https://www.facebook.com" target="_blank" rel="noreferrer"><img src={face} alt="face" className="col"/></a></li>
+        <li className="mx-2"><a href="https://www.instagram.com" target="_blank" rel="noreferrer"><img src={insta} alt="insta" className="col"/></a></li>
+        <li className="mx-2"><a href="https://www.twitter.com" target="_blank" rel="noreferrer"><img src={twitter} alt="twitter" className="col"/></a></li>
+        <li className="mx-2"><a href="https://www.youtube.com" target="_blank" rel="noreferrer"><img src={youtube} alt="youtube" className="col"/></a></li>
 
     </NetworkingContainer>
     );
