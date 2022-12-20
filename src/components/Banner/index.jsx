@@ -19,7 +19,7 @@ const Banner = () => {
                                 <p id="logo" className="mb-0">Legalide</p>                   
                                 <div>    
                                     <div className="d-flex align-items-end justify-content-between d-block d-md-none">
-                                        <GiHamburgerMenu type="button" onClick={() => setIsMenuOpened(true)} size={18}/>
+                                        <GiHamburgerMenu type="button" onClick={() => setIsMenuOpened(true)} size={18} color="white"/>
                                     </div>                                          
                                     <MenuMobile isMenuOpened={isMenuOpened} className="d-flex flex-column d-md-none position-fixed">
                                         <NavSection className="container w-100">

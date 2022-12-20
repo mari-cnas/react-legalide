@@ -2,7 +2,7 @@ import { ContactCardContainer } from './style';
 
 
 const CardContact = ({icon,title,description,backgroundColor,textColor, children}) => (
-        <ContactCardContainer className="container card d-flex flex-column align-items-center justify-content-center py-4 my-3" 
+        <ContactCardContainer className="card d-flex flex-column align-items-center justify-content-center py-4 my-3 " 
             backgroundColor={backgroundColor} textColor={textColor}>
             <img src={icon} alt="tel"/>
             <div className="card-body d-flex flex-column align-items-center justify-content-center">

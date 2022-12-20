@@ -48,12 +48,14 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: blue;
+  color: #D0A144;
+  text-shadow: 1px 1px 2px black;
 }
 
 /* selected link */
 a:active {
-  color: #0000FF;
+  color: #D0A144;
+
 }
 
 
