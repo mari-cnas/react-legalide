@@ -7,7 +7,7 @@ import map2 from '../../../assets/map2.png';
 const Menu = () => (
     <section id="footerMenu" className="d-flex ">
         <MenuContainer className="container ">
-            <div className="container row d-flex justify-content-between row-cols-lg-5 row-cols-md-3 row-cols-sm-1">
+            <div className="container row d-flex justify-content-between row-cols-lg-5 row-cols-md-2 row-cols-sm-1">
                 <FooterColumn className="col"
                 title="Company Info"
                 line1="About us"
@@ -52,7 +52,7 @@ const Menu = () => (
                 line4="API"
                 link4="#footerMenu"
                 />
-                <ul className="col list text-white py-5 ">
+                <ul className="col list d-flex flex-column text-white justify-content-between align-items-md-center align-items-start align-items-lg-start py-5">
                     <h5 className="pb-2">Get in Touch</h5>
                     <li className="pb-2"><img src={tel2} alt="tel" className="me-2"/>(480) 555-0103</li>
                     <li className="pb-2"><img src={map2} alt="map" className="me-2"/>4517 Washington Ave</li>
