@@ -7,8 +7,8 @@ import map2 from '../../../assets/map2.png';
 const Menu = () => (
     <section id="footerMenu" className="d-flex ">
         <MenuContainer className="container ">
-            <div className="container row d-flex justify-content-between row-cols-lg-5 row-cols-md-2 row-cols-sm-1">
-                <FooterColumn className="col"
+            <div className="container row d-flex justify-content-between row-cols-lg-5 row-cols-md-2 row-cols-sm-1 ">
+                <FooterColumn className="col "
                 title="Company Info"
                 line1="About us"
                 link1="#footerMenu"
