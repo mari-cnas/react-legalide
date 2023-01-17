@@ -2,13 +2,13 @@ import { RequestContainer } from './style';
 
 
 const Footer = () => (
-        <RequestContainer className="container d-flex justify-content-between align-items-center my-5 flex-wrap px-0 ">
-            <div className="container">
+        <RequestContainer className="container d-flex justify-content-between align-items-center my-5 flex-wrap ">
+            <div >
                 <h2>Request A Free Consultation</h2>
                 <p>the quick fox jumps over the lazy dog</p>
         </div>   
-        <div className="container">
-            <button id="btn" className="text">Contact us</button>
+        <div >
+            <button id="btn" >Contact us</button>
         </div>
             
         </RequestContainer>
