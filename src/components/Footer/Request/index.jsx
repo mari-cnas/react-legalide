@@ -2,7 +2,7 @@ import { RequestContainer } from './style';
 
 
 const Footer = () => (
-        <RequestContainer className="container d-flex justify-content-between align-items-center my-5 flex-wrap  ">
+        <RequestContainer className="container d-flex justify-content-between align-items-center my-5 flex-wrap px-0 ">
             <div className="container">
                 <h2>Request A Free Consultation</h2>
                 <p>the quick fox jumps over the lazy dog</p>
